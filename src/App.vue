@@ -2,7 +2,7 @@
   <div>
    Hello from vidsfinder
    <SearchBar @termChange="onTermChange" /> 
-   <VideoList />
+   <VideoList v-bind:videosArray="videos" />
   </div>
 </template>
 
