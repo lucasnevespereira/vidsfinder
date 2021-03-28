@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul class="list-group">
     <VideoListItem v-for="v in videosArray" v-bind:video="v" :key="v.etag">
       
     </VideoListItem>

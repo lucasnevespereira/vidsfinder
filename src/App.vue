@@ -1,8 +1,12 @@
 <template>
   <div>
-   Hello from vidsfinder
-   <SearchBar @termChange="onTermChange" /> 
-   <VideoList v-bind:videosArray="videos" />
+    <div class="container text-center p-2">
+      <h1>VidsFinder</h1>
+    </div>
+    <div class="container">
+    <SearchBar @termChange="onTermChange" /> 
+    <VideoList v-bind:videosArray="videos" />
+    </div>
   </div>
 </template>
 
